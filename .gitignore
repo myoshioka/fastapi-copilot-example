@@ -1,0 +1,31 @@
+### Python ###
+__pycache__/
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+.DS_Store
+.dir-locals.el
