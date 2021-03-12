@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  app: &app
+    build:
+      context: .
+    tty: true
+    ports:
+      - 8080:80
+    volumes:
+      - ./app:/code/app
+      - ./pyproject.toml:/code/pyproject.toml
+      - ./poetry.lock:/code/poetry.lock
+      - venv:/code/.venv
+volumes:
+  venv:
+
+
